@@ -85,10 +85,10 @@ export default {
 };
 
 const images = [
-  "/carousel_1.jpg",
-  "/carousel_2.jpg",
-  "/carousel_3.jpg",
-  "/carousel_4.jpg"
+  "/images/carousel_1.jpg",
+  "/images/carousel_2.jpg",
+  "/images/carousel_3.jpg",
+  "/images/carousel_4.jpg"
 ]
 
 const circles = [

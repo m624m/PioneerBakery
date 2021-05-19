@@ -5,7 +5,7 @@
       <p>{{ feature }}</p>
     </div>
     <div class="other">
-      <img src="/cat.png" alt="Logo">
+      <img src="/images/cat.png" alt="Logo">
       <p>
         地址 <span>{{ contact.add }}</span><br>
         電話 <span>{{ contact.phone }}</span><br>

@@ -45,7 +45,7 @@ $orange: rgba(247, 132, 37, 1);
 $light_orange: rgba(250, 178, 119, 1);
 
 .header-bgc {
-  background: url(/nav.png) no-repeat top left;
+  background: url(/images/nav.png) no-repeat top left;
   background-size: 256px;
   .header {
     position: absolute;
@@ -67,7 +67,7 @@ $light_orange: rgba(250, 178, 119, 1);
       height: 130px;
       border-radius: 50%;
       box-shadow: 0 0 10px $bgc;
-      background: url(/logo.png) no-repeat center center;
+      background: url(/images/logo.png) no-repeat center center;
       background-size: 135%;
       &:hover {
         box-shadow: 0 0 10px 3px $bgc;
