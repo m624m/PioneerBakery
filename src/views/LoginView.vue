@@ -103,7 +103,7 @@ $orange: rgba(247, 132, 37, 1);
   form {
     color: $remark;
     margin: 20px 0;
-    input[type=text], input[type=password], input[type=email] {
+    .input {
       @include border;
       background-color: $remark1;
       &:focus {
