@@ -7,24 +7,24 @@
       </div>
       <form name="login" method="post" action="#" :class="{invisible: !login}">
         <p>帳號</p>
-        <input type="text" name="username" required>
+        <input type="text" class="input" name="username" required>
         <p>密碼</p>
-        <input type="password" name="password" required>
+        <input type="password" class="input" name="password" required>
         <input type="checkbox" id="keep" name="keep-login" class="keep-checkbox" checked>
         <label for="keep" class="keep-label">保持登入狀態</label>
-        <input type="submit" value="登入">
+        <input type="submit" class="submit" value="登入">
         <div class="forget"><a href="#">忘記密碼?</a></div>
       </form>
       <form name="signup" method="post" action="#" :class="{invisible: login}">
         <p>帳號</p>
-        <input type="text" name="username" required>
+        <input type="text" class="input" name="username" required>
         <p>密碼</p>
-        <input type="password" name="password" required>
+        <input type="password" class="input" name="password" required>
         <p>確認密碼</p>
-        <input type="password" name="password" required>
+        <input type="password" class="input" name="password" required>
         <p>信箱</p>
-        <input type="email" required>
-        <input type="submit" value="註冊">
+        <input type="email" class="input" required>
+        <input type="submit" class="submit" value="註冊">
       </form>
     </div>
   </div>
@@ -120,7 +120,7 @@ $orange: rgba(247, 132, 37, 1);
     .keep-label {
       font-size: .6rem;
     }
-    input[type=submit] {
+    .submit {
       @include border;
       background-color: $orange;
       color: #fff;
